@@ -12,9 +12,9 @@
 
 <div class="actions">
     <ul class="meal-plan-actions">
-        <li><%= link_to "Edit Meal Plan", edit_meal_plan_path(@meal_plan) %></li>
+        <li><%= link_to "Edit Meal Plan", edit_meal_plan_path(@meal_plan), class: "btn btn-secondary" %></li>
         <li><%= link_to "Delete", meal_plan_path(@meal_plan), data: {
             confirm: "Are you sure you want to delete meal plan: #{@meal_plan}?",
-        }, method: :delete %></li>
+        }, method: :delete, class: "btn btn-danger" %></li>
     </ul>
 </div>

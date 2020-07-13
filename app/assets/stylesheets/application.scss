@@ -31,3 +31,24 @@ h1 {
 .recipe-name {
     text-decoration: none;
 }
+
+.recipe-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.meal-plan-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.meals {
+    list-style-type: none;
+
+}

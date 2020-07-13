@@ -2,13 +2,13 @@
 
 <h2>Description:</h2>
 <p><%= @recipe.description %></p>
-
+<br>
 <div>
     <ul class="recipe-actions">
-        <li><%= link_to "Back", recipes_path %></li>
-        <li><%= link_to "Edit", edit_recipe_path(@recipe) %></li>
+        <li><%= link_to "Back", recipes_path, class: "btn btn-secondary" %></li>
+        <li><%= link_to "Edit", edit_recipe_path(@recipe), class: "btn btn-secondary" %></li>
         <li><%= link_to "Delete", recipe_path(@recipe), data: {
-        confirm: "Are you sure you want to delete: #{@recipe.name}?",
-        }, method: :delete %></li>
+            confirm: "Are you sure you want to delete: #{@recipe.name}?",
+        }, method: :delete, class: "btn btn-danger" %></li>
     </ul>
 </div>
