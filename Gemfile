@@ -9,7 +9,7 @@ gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap', '~> 4.5.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'nokogiri', '1.10.9'
+gem 'nokogiri', '1.11.4'
 gem 'jquery-rails'
 gem 'clearance'
 
